@@ -7,7 +7,7 @@ on:
     # Runs every 12 hours
     - cron: "0 */12 * * *"
 
-  # Allow manual run from Actions tab
+  # Allow manual trigger from Actions tab
   workflow_dispatch:
 
   # Run on push to main branch
@@ -34,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push snake to output branch
+      - name: Push snake files to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
