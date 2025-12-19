@@ -65,4 +65,4 @@
 
 ### 🐍 Contribution Snake
 
-![snake gif](https://github.com/vbs3011/vbs3011/blob/output/github-contribution-grid-snake.gif)
+![snake svg](https://raw.githubusercontent.com/vbs3011/vbs3011/output/github-contribution-grid-snake.svg)
